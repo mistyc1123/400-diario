@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Método 400$ por Dia</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: radial-gradient(circle at top, #000000 0%, #1e1e1e 100%);
+      color: #f9f9f9;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background-color: #111111e6;
+      padding: 50px 35px;
+      max-width: 750px;
+      width: 100%;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.15);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #ffd700;
+      margin-bottom: 25px;
+      text-shadow: 0 0 10px #ffd70070;
+    }
+
+    p.bio {
+      font-size: 1.25rem;
+      line-height: 1.75;
+      color: #ddd;
+      font-weight: 500;
+      margin-bottom: 45px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(to right, #ffd700, #ffcc00);
+      color: #000;
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding: 16px 48px;
+      border-radius: 40px;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(255, 204, 0, 0.7);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #ffcc00, #ffee00);
+      box-shadow: 0 10px 30px rgba(255, 230, 0, 0.9);
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p.bio {
+        font-size: 1.05rem;
+      }
+      .btn {
+        font-size: 1.1rem;
+        padding: 14px 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Método 400$ por Dia</h1>
+    <p class="bio">
+      Descubra como pessoas comuns estão gerando mais de <strong>R$ 2.000 por semana</strong> direto do celular.<br><br>
+      O <strong>Método 400$ por Dia</strong> é simples, direto, e funciona.<br><br>
+      Não é preciso experiência, investimento alto ou sorte. Você só precisa de acesso à informação certa — e ela está aqui.<br><br>
+      Se você está cansado de promessas vazias e quer um método que entrega resultados reais, <strong>essa é sua chance de mudar de vida</strong>.
+    </p>
+
+    <a href="#" class="btn" onclick="event.preventDefault(); alert('Parabéns! Você está um passo mais perto da sua liberdade financeira!'); window.location.href='https://pay.cakto.com.br/js3334r_448943';">
+      QUERO COMEÇAR AGORA
+    </a>
+  </div>
+</body>
+</html>
